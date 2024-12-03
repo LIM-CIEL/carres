@@ -30,4 +30,10 @@ public:
      *  Affiche les caractéristiques du carré (sx, sy, cote).
      */
     void Afficher();
+
+    int Getsx(); 
+
+    int Getsy();
+
+    int GetCote();
 };

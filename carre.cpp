@@ -41,3 +41,25 @@ int CCarre::GetCote()
     cout << "la valeur de cote est de : "<<cote << endl;
     return 0;
 }
+
+void CCarre::Deplacer(char direction, int saut)
+{
+    switch (direction) {
+    case 'n': // Nord
+        sy -= saut;
+        break;
+    case 's': // Sud
+        sy += saut;
+        break;
+    case 'o': // Ouest
+        sx -= saut;
+        break;
+    case 'e': // Est
+        sx += saut;
+        break;
+    default:
+        cout << "Direction invalide ! Utilisez 'n', 's', 'o' ou 'e'.\n";
+        break;
+    }
+}
+

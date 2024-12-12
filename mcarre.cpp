@@ -51,4 +51,4 @@ int main()
 		carres[i].Afficher();
 		std::cout << std::endl;
 	}
-}
+}    

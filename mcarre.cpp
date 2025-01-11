@@ -24,7 +24,7 @@ int main()
 	cout << "Avant deplacement :\n";
 	c1.Afficher();
 
-	cout << " "<< endl;
+	cout << " " << endl;
 	cout << " " << endl;
 
 	c1.Deplacer('n', 2); // Déplacement vers le nord
@@ -51,4 +51,4 @@ int main()
 		carres[i].Afficher();
 		std::cout << std::endl;
 	}
-}    
+}
